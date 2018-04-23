@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/9/30 星期五 下午 8:37:15。
+     1>项目“D:\project\proj_windows\chat\sqlnet\sqlnet.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 文件“d:\project\proj_windows\chat\x64\debug\sqlnet.lib”正由另一进程使用，因此该进程无法访问此文件。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\MySQL\mysql-5.6.32-winx64\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLNET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\sqlnet.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\MySQL\mysql-5.6.32-winx64\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLNET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\MySQL\mysql-5.6.32-winx64\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLNET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\sqlnet.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt sqlnet.cpp
+         sqlnet.cpp
+     1>d:\project\proj_windows\chat\sqlnet\sqlnet.h(36): warning C4251: “cMySql::m_listResult”: class“std::list<std::list<std::string,std::allocator<_Ty>>,std::allocator<std::list<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“cMySql”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\proj_windows\chat\x64\Debug\sqlnet.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\MySQL\mysql-5.6.32-winx64\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\proj_windows\chat\x64\Debug\sqlnet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\proj_windows\chat\x64\Debug\sqlnet.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\sqlnet.obj
+         x64\Debug\stdafx.obj
+            正在创建库 D:\project\proj_windows\chat\x64\Debug\sqlnet.lib 和对象 D:\project\proj_windows\chat\x64\Debug\sqlnet.exp
+         sqlnet.vcxproj -> D:\project\proj_windows\chat\x64\Debug\sqlnet.dll
+     1>已完成生成项目“D:\project\proj_windows\chat\sqlnet\sqlnet.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.96

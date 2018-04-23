@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/9/28 星期三 下午 9:09:05。
+     1>项目“D:\project\proj_windows\chat\chatClient\chatClient.vcxproj”在节点 4 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\proj_windows\chat\Debug\chatClient.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\project\proj_windows\chat\Debug\chatClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\proj_windows\chat\Debug\chatClient.lib" /MACHINE:X86 Debug\chatClient.res
+         Debug\cChatDlg.obj
+         Debug\chatClient.obj
+         Debug\chatClientDlg.obj
+         Debug\cMainClient.obj
+         Debug\cRegisterDialog.obj
+         Debug\cSearchDlg.obj
+         Debug\stdafx.obj
+     1>cSearchDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SendToServer(void *,int)" (?SendToServer@@YAXPAXH@Z)
+     1>cChatDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl SendToServer(void *,int)" (?SendToServer@@YAXPAXH@Z)，该符号在函数 "public: void __thiscall cChatDlg::OnBnClickedBtnSend(void)" (?OnBnClickedBtnSend@cChatDlg@@QAEXXZ) 中被引用
+     1>chatClientDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SendToServer(void *,int)" (?SendToServer@@YAXPAXH@Z)
+     1>cMainClient.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SendToServer(void *,int)" (?SendToServer@@YAXPAXH@Z)
+     1>cRegisterDialog.obj : error LNK2001: 无法解析的外部符号 "void __cdecl SendToServer(void *,int)" (?SendToServer@@YAXPAXH@Z)
+     1>chatClientDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl InitNet(unsigned int,void (__cdecl*)(unsigned long,void *,int),bool,char *)" (?InitNet@@YAXIP6AXKPAXH@Z_NPAD@Z)，该符号在函数 "protected: virtual int __thiscall CchatClientDlg::OnInitDialog(void)" (?OnInitDialog@CchatClientDlg@@MAEHXZ) 中被引用
+     1>D:\project\proj_windows\chat\Debug\chatClient.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“D:\project\proj_windows\chat\chatClient\chatClient.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.35
